@@ -1,27 +1,27 @@
-# TttFrontend
+# Word Frequency Distribution of top 'N' words from file at https://terriblytinytales.com/test.txt
+Application built with Angular 8 as frontend, Express on top of Node.js as backend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This is the PRODUCTION folder uploaded to Heroku.
 
-## Development server
+## THIS IS THE PRODUCTION FOLDER
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Libraries and Dependencies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. backend(Express with Node.js): <br />
+    &emsp;a. node-fetch: to fetch file from url<br />
+    &emsp;b. express: used express on top of Node.js <br />
+    &emsp;c. cors: cross-origin resource sharing (to communicate with Angular 8) <br />
+2. frontend(Angular 8): <br />
+    &emsp;a. bootswatch/darkly: dark bootstrap CDN theme from bootswatch (https://bootswatch.com/darkly/)<br />
 
-## Build
+## Production
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The current git repository contains the developement server folder structure.  <br />
+For the production server visit: (https://github.com/HIMA-MB02/ttt-assignments). <br />
 
-## Running unit tests
+## Deployment
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This application has been deployed on heroku as a MEAN Stack application.  <br />
+(https://word-frequency-distribution.herokuapp.com)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
