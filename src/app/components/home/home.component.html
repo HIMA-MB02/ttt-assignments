@@ -1,0 +1,14 @@
+<!-- Application Body -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form class="form-group text-center">
+                <h1>ttt</h1>
+                <p>(Enter a number n to display the top n most frequently occuring words in the text file at https://terriblytinytales.com/test.txt)</p>
+                <input class="form-control mr-sm-2" type="number" value="" placeholder="Search" #n><br />
+                <button class="btn btn-primary" type="button" (click)="sendRequest(n.value)">Search</button><br />
+                <p *ngIf="showValidationMessage" class="text-danger">search value cannot be empty!</p>
+            </form>
+        </div>
+    </div>
+</div>
