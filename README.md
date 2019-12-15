@@ -15,10 +15,10 @@ This is the PRODUCTION folder uploaded to Heroku.
 2. frontend(Angular 8): <br />
     &emsp;a. bootswatch/darkly: dark bootstrap CDN theme from bootswatch (https://bootswatch.com/darkly/)<br />
 
-## Production
+## Development
 
-The current git repository contains the developement server folder structure.  <br />
-For the production server visit: (https://github.com/HIMA-MB02/ttt-assignments). <br />
+The current git repository contains the production folder structure.  <br />
+For the development server folder visit: (https://github.com/HIMA-MB02/word-frequency-distributon). <br />
 
 ## Deployment
 
